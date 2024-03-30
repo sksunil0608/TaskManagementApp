@@ -3,11 +3,9 @@
 This project combines a backend and frontend application for task management.
  1. Clone the repository and navigate to the root directory:
     ```bash
-    git clone https://github.com/sksunil0608/TaskManagement
+    git clone https://github.com/sksunil0608/TaskManagementApp
     cd TaskManagement
     ```
-
-## Combined Backend and Frontend TaskManagement Project Installation
 
 ### Add `.env` file in the backend directory
 
@@ -18,9 +16,9 @@ This project combines a backend and frontend application for task management.
 
 2. Create a `.env` file and add the following environment variables:
     ```bash
-    echo DB_NAME='YourDatabaseSchema' > .env
-    echo DB_USER='YourDatabaseUserName' >> .env
-    echo DB_PASSWORD='YourDatabasePassword' >> .env
+    echo USER_NAME='YourDatabaseUserName' >> .env
+    echo USER_PASSWORD='YourDatabasePassword' >> .env
+    PORT=4000
     ```
 # Make Sure to Change Environment Variables
 
@@ -41,7 +39,7 @@ To install the project and start both backend and frontend servers together, fol
 
 4. Navigate to the frontend directory:
     ```bash
-    cd TaskManagement/frontend
+    cd TaskManagementApp/frontend
     ```
 
 5. Install frontend dependencies:
