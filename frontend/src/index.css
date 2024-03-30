@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+.bg-select {
+  @apply bg-gradient-to-r from-cyan-300 to-blue-700;
+}
+.bg-unselect {
+  @apply bg-gradient-to-r from-red-600 to-indigo-500;
+}
+@tailwind utilities;
